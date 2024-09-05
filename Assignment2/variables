@@ -1,0 +1,112 @@
+// 1. Variables and Data Types
+
+// Variable for Person's Name
+let personName ="John Doe";
+
+// Variable for Age
+let age = 25; 
+
+// Variable if they're a student (boolean)
+let isStudent = true;
+
+console.log(personName);//String
+console.log(age);//Number
+console.log(isStudent)//Boolean
+
+let numOne = 5;
+let numTwo = 10;
+
+//2. Basic Arithmetic Operations
+
+//Addition first
+let addition = numOne + numTwo;
+console.log("Addition:" + addition);
+
+//Now we do Subtraction
+let subtraction = numOne - numTwo;
+console.log("Subtraction:" + subtraction);
+
+//Multiplication 
+let multiplication = numOne * numTwo;
+console.log("Multiplication:" + multiplication);
+
+//Finally Division 
+let division = numOne / numTwo;
+console.log("Division:" + division);
+
+// 3. Working with Strings
+
+let sentence = "The Green Bay Packers are going to win the Super Bowl!";
+
+// The length of the string is
+console.log("Length:" + sentence.length);
+
+// The first character 
+console.log("First character:" + sentence.charAt(0));
+
+// This is the last character
+console.log("Last character:" + sentence.charAt(sentence.length-1));
+
+// 4. Math Object
+
+let negativeNum = -10;
+
+// This is the Square Root
+console.log("Square root:" +
+    Math.sqrt(Math.abs(negativeNum)));
+
+// This is the Number Squared 
+console.log("Squared:" + (negativeNum * negativeNum));
+
+// Now the Absolute Value
+console.log("Absolute value:" +
+    Math.abs(negativeNum));
+
+// 5. Boolean Logic an Comparison Operators 
+
+let num1 = 10 
+let num2 = 20
+
+// Greater than
+if (num1 > num2)
+{
+    console.log("#1 is greater than #2");
+}
+// Less than
+else if (num1 < num2)
+{
+    console.log("#1 is less than #2");
+}
+// equal to
+else 
+{
+    console.log("#1 is equal to #2");
+}
+
+// 6. Logical Operators 
+
+let isgrassGreen = true;
+let iswaterWet = false;
+
+// Logical && 
+let andResult = isgrassGreen && iswaterWet;
+console.log("Logical and (isgrassGreen && iswaterWet):" + andResult);
+
+// Logical ||
+let orResult = isgrassGreen || iswaterWet;
+console.log("Logical or (isgrassGreen || iswaterWet):" +
+    orResult);
+
+// Logical ! 
+let notGreen = !isgrassGreen;
+let notWet = !iswaterWet;
+console.log("Logical not (!iswaterWet):" + notWet);
+
+// 7. Using Template literals 
+
+let firstName = "Jim";
+let lastName = "Pinto";
+
+let greetingMessage = 'Hello, ${firstName}$ {pinto}!Welcome';
+
+console.log(greetingMessage);
